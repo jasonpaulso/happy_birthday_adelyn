@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G12b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="x9H-ai-bRY">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dKJ-UR-Etd">
+            <objects>
+                <viewController storyboardIdentifier="birthdayCardView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="x9H-ai-bRY" customClass="ViewController" customModule="Happy_Birthday_Adelyn_" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YUw-Sv-asn"/>
+                        <viewControllerLayoutGuide type="bottom" id="NMq-3G-qnA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zYJ-pQ-47F">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBD_Background" translatesAutoresizingMaskIntoConstraints="NO" id="vCg-K6-l7f">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="768" id="b0s-l9-1se"/>
+                                    <constraint firstAttribute="height" constant="1024" id="yYe-0k-14V"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AUa-IX-8uF">
+                                <rect key="frame" x="107" y="114" width="555" height="312"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBD_Frame_2" translatesAutoresizingMaskIntoConstraints="NO" id="69f-hh-h00" userLabel="Top Frame Image">
+                                <rect key="frame" x="75" y="67" width="618" height="408"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="408" id="Ihc-8D-v4h"/>
+                                    <constraint firstAttribute="width" constant="618" id="qzT-6U-hAT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBD_Uncles_1" translatesAutoresizingMaskIntoConstraints="NO" id="Mmt-nE-Kex">
+                                <rect key="frame" x="195" y="130" width="375" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="K8B-ML-2lm"/>
+                                    <constraint firstAttribute="height" constant="280" id="aiK-0d-8yf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyf-TQ-JOr">
+                                <rect key="frame" x="334" y="221" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="HBD_Play"/>
+                                <connections>
+                                    <action selector="topPlayButtonAction:" destination="x9H-ai-bRY" eventType="touchUpInside" id="tXM-5f-SCq"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjr-QV-4dN" userLabel="Bottom Video Frame">
+                                <rect key="frame" x="107" y="556" width="555" height="312"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="555" id="bxO-Bb-8Hn"/>
+                                    <constraint firstAttribute="height" constant="312" id="lhb-eE-pPd"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBD_Frame_1" translatesAutoresizingMaskIntoConstraints="NO" id="PkY-c6-3GW" userLabel="Bottom Frame Image">
+                                <rect key="frame" x="75" y="508" width="618" height="408"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="408" id="6tl-zK-9Dt"/>
+                                    <constraint firstAttribute="width" constant="618" id="Zkn-HQ-ad1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="525" id="lD3-4N-unU"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="408" id="z5d-8p-wAa"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBD_Uncles_2" translatesAutoresizingMaskIntoConstraints="NO" id="9eU-kM-6ry">
+                                <rect key="frame" x="195" y="573" width="375" height="280"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="sOq-j1-0oK"/>
+                                    <constraint firstAttribute="height" constant="280" id="x5K-HX-6af"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x7p-NB-pov">
+                                <rect key="frame" x="332" y="662" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="HBD_Play"/>
+                                <connections>
+                                    <action selector="bottomPlayButtonAction:" destination="x9H-ai-bRY" eventType="touchUpInside" id="dkt-VX-bkd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocA-V7-PHk" userLabel="Interior Lock Outlet">
+                                <rect key="frame" x="325" y="924" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="jua-Wc-gi4"/>
+                                    <constraint firstAttribute="height" constant="50" id="psJ-st-Q4D"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="HBD_LockSmall"/>
+                                <connections>
+                                    <action selector="doorOpenButton:" destination="x9H-ai-bRY" eventType="touchUpInside" id="ItV-Tt-lsm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJH-gQ-vIb">
+                                <rect key="frame" x="390" y="924" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="zjM-sC-hkk"/>
+                                </constraints>
+                                <state key="normal" image="HBD_MusicOn"/>
+                                <state key="selected" image="HBD_MusicOff"/>
+                                <connections>
+                                    <action selector="muteButtonAction:" destination="x9H-ai-bRY" eventType="touchUpInside" id="TWY-Ix-ihE"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q7G-NB-MUv" customClass="WARDoorView" customModule="WARDoorView">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <color key="backgroundColor" red="0.298828125" green="1" blue="0.881103515625" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1024" id="f8i-GI-wmL"/>
+                                    <constraint firstAttribute="width" constant="768" id="nws-bX-ADN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="HBD_Door"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="rightImage" value="HBD_Door"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L0M-vu-YjW">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqT-wc-U73" customClass="SpringButton" customModule="Spring">
+                                        <rect key="frame" x="322" y="774" width="125" height="125"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="HBD_Lock"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="animation" value="wobble"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="duration">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="lockButtonAction:" destination="x9H-ai-bRY" eventType="touchUpInside" id="yUQ-qX-nV1"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Happy" translatesAutoresizingMaskIntoConstraints="NO" id="fb5-ox-NhG">
+                                        <rect key="frame" x="0.0" y="123" width="768" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Birthday" translatesAutoresizingMaskIntoConstraints="NO" id="i4y-LL-ozS" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="-8" y="287" width="768" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Adelyn" translatesAutoresizingMaskIntoConstraints="NO" id="c2j-DP-hMy">
+                                        <rect key="frame" x="0.0" y="448" width="768" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DE5-1o-sK9">
+                                        <rect key="frame" x="34" y="64" width="700" height="700"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HBD_Pop_Up" translatesAutoresizingMaskIntoConstraints="NO" id="vWt-bG-6ju">
+                                                <rect key="frame" x="0.0" y="0.0" width="700" height="700"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="700" id="C8f-zE-y2v"/>
+                                                    <constraint firstAttribute="height" constant="700" id="S2g-c4-kM0"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaQ-Xc-cAU" customClass="SpringButton" customModule="Spring">
+                                                <rect key="frame" x="73" y="187" width="138" height="359"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="138" id="x4j-du-ljU"/>
+                                                    <constraint firstAttribute="height" constant="359" id="xHS-te-Z5j"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="HBD_Key_1"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="wobble"/>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="NO"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyNumberOneAction:" destination="x9H-ai-bRY" eventType="touchUpInside" id="UAI-eH-qJm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMq-ip-e4W" customClass="SpringButton" customModule="Spring">
+                                                <rect key="frame" x="281" y="187" width="138" height="359"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="138" id="Nl8-Op-S9J"/>
+                                                    <constraint firstAttribute="height" constant="359" id="a1d-ZV-JuA"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="HBD_Key_2"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="animation" value="wobble"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="keyNumberTwoAction:" destination="x9H-ai-bRY" eventType="touchUpInside" id="SiP-D7-sOr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2g-wW-7K6" userLabel="Key Number Three" customClass="SpringButton" customModule="Spring">
+                                                <rect key="frame" x="489" y="187" width="138" height="359"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="138" id="Sck-DX-6UG"/>
+                                                    <constraint firstAttribute="height" constant="359" id="qLh-Nh-zUG"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="HBD_Key_3"/>
+                                                <connections>
+                                                    <action selector="doorOpenButton:" destination="x9H-ai-bRY" eventType="touchUpInside" id="pw2-li-8wv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="700" id="9Mt-Nb-Ram"/>
+                                            <constraint firstItem="b2g-wW-7K6" firstAttribute="top" secondItem="eMq-ip-e4W" secondAttribute="top" id="Aw1-md-QD0"/>
+                                            <constraint firstItem="eMq-ip-e4W" firstAttribute="centerX" secondItem="DE5-1o-sK9" secondAttribute="centerX" id="DEm-DI-yzy"/>
+                                            <constraint firstItem="b2g-wW-7K6" firstAttribute="leading" secondItem="eMq-ip-e4W" secondAttribute="trailing" constant="70" id="LS2-Pg-SEw"/>
+                                            <constraint firstItem="eMq-ip-e4W" firstAttribute="top" secondItem="vWt-bG-6ju" secondAttribute="bottom" constant="-513" id="WIj-fO-ull"/>
+                                            <constraint firstItem="eMq-ip-e4W" firstAttribute="centerX" secondItem="vWt-bG-6ju" secondAttribute="centerX" id="ao7-fD-09a"/>
+                                            <constraint firstItem="eMq-ip-e4W" firstAttribute="leading" secondItem="aaQ-Xc-cAU" secondAttribute="trailing" constant="70" id="eqL-Rs-9Ah"/>
+                                            <constraint firstItem="aaQ-Xc-cAU" firstAttribute="top" secondItem="eMq-ip-e4W" secondAttribute="top" id="huG-4J-IaG"/>
+                                            <constraint firstAttribute="height" constant="700" id="w9m-VD-4k3"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_1" translatesAutoresizingMaskIntoConstraints="NO" id="pMk-mb-P3v" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="322" y="390" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_2" translatesAutoresizingMaskIntoConstraints="NO" id="pO4-Bh-pWf" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="598" y="212" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeInOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_1" translatesAutoresizingMaskIntoConstraints="NO" id="1bZ-C9-r4C" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="-158" y="453" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeInOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_1" translatesAutoresizingMaskIntoConstraints="NO" id="LFm-zk-H8x" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="8" y="123" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeIn"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_2" translatesAutoresizingMaskIntoConstraints="NO" id="fwP-ai-5Nt" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="434" y="327" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="linear"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_2" translatesAutoresizingMaskIntoConstraints="NO" id="b9i-4p-3ma" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="-29" y="327" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeInOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_1" translatesAutoresizingMaskIntoConstraints="NO" id="mFW-I6-WXt" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="481" y="71" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeIn"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_1" translatesAutoresizingMaskIntoConstraints="NO" id="NmO-dI-B5i" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="229" y="259" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_1" translatesAutoresizingMaskIntoConstraints="NO" id="vFD-wS-ota" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="136" y="395" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeInOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_2" translatesAutoresizingMaskIntoConstraints="NO" id="CFw-T7-MpT" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="-135" y="138" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeInOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_2" translatesAutoresizingMaskIntoConstraints="NO" id="ehq-RN-sKd" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="122" y="8" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="linear"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HBD_Balloon_2" translatesAutoresizingMaskIntoConstraints="NO" id="S0h-3r-dTh" customClass="SpringImageView" customModule="Spring">
+                                        <rect key="frame" x="434" y="578" width="311" height="311"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="curve" value="easeInOut"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1024" id="F5y-9y-rHe"/>
+                                    <constraint firstItem="vWt-bG-6ju" firstAttribute="leading" secondItem="L0M-vu-YjW" secondAttribute="leading" constant="34" id="GhF-XP-AyT"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1024" id="TQM-DR-fmS"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="768" id="ZMy-oD-Fdc"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1024" id="bSr-00-i1H"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="768" id="fKy-sf-Hsj"/>
+                                    <constraint firstItem="DE5-1o-sK9" firstAttribute="centerX" secondItem="L0M-vu-YjW" secondAttribute="centerX" id="hmx-p5-pBD"/>
+                                    <constraint firstItem="vWt-bG-6ju" firstAttribute="top" relation="greaterThanOrEqual" secondItem="L0M-vu-YjW" secondAttribute="top" constant="64" id="pgx-F1-f30"/>
+                                    <constraint firstAttribute="width" constant="768" id="xll-YB-Tl2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vCg-K6-l7f" firstAttribute="centerX" secondItem="zYJ-pQ-47F" secondAttribute="centerX" id="6Kt-3x-F2u"/>
+                            <constraint firstItem="9eU-kM-6ry" firstAttribute="centerX" secondItem="PkY-c6-3GW" secondAttribute="centerX" constant="-2" id="9Zv-um-NhN"/>
+                            <constraint firstItem="PkY-c6-3GW" firstAttribute="top" secondItem="69f-hh-h00" secondAttribute="bottom" constant="33" id="9px-a1-dow"/>
+                            <constraint firstItem="AUa-IX-8uF" firstAttribute="leading" secondItem="zYJ-pQ-47F" secondAttribute="leading" constant="107" id="Bbj-Wc-k6p"/>
+                            <constraint firstItem="ocA-V7-PHk" firstAttribute="leading" secondItem="zYJ-pQ-47F" secondAttribute="leadingMargin" constant="305" id="DiE-Pp-t9x"/>
+                            <constraint firstItem="69f-hh-h00" firstAttribute="centerX" secondItem="AUa-IX-8uF" secondAttribute="centerX" id="Eh2-05-ALg"/>
+                            <constraint firstItem="bJH-gQ-vIb" firstAttribute="leading" secondItem="ocA-V7-PHk" secondAttribute="trailing" constant="15" id="Ha1-A7-8bw"/>
+                            <constraint firstItem="L0M-vu-YjW" firstAttribute="centerY" secondItem="zYJ-pQ-47F" secondAttribute="centerY" id="K7s-oF-KFU"/>
+                            <constraint firstItem="69f-hh-h00" firstAttribute="centerX" secondItem="vCg-K6-l7f" secondAttribute="centerX" constant="0.5" id="LvQ-uD-jO3"/>
+                            <constraint firstItem="q7G-NB-MUv" firstAttribute="centerY" secondItem="zYJ-pQ-47F" secondAttribute="centerY" id="MVI-vw-wg9"/>
+                            <constraint firstItem="Mmt-nE-Kex" firstAttribute="centerY" secondItem="69f-hh-h00" secondAttribute="centerY" constant="-1" id="NhA-jL-Lzh"/>
+                            <constraint firstItem="bJH-gQ-vIb" firstAttribute="top" secondItem="ocA-V7-PHk" secondAttribute="top" id="OIW-mr-oZl"/>
+                            <constraint firstItem="L0M-vu-YjW" firstAttribute="centerX" secondItem="zYJ-pQ-47F" secondAttribute="centerX" id="Oew-7o-l7k"/>
+                            <constraint firstItem="vCg-K6-l7f" firstAttribute="centerY" secondItem="zYJ-pQ-47F" secondAttribute="centerY" id="Y50-dX-sht"/>
+                            <constraint firstItem="NMq-3G-qnA" firstAttribute="top" secondItem="DE5-1o-sK9" secondAttribute="bottom" constant="260" id="YMw-CO-Ud0"/>
+                            <constraint firstItem="fjr-QV-4dN" firstAttribute="leading" secondItem="AUa-IX-8uF" secondAttribute="leading" id="YT5-lF-6q9"/>
+                            <constraint firstItem="69f-hh-h00" firstAttribute="top" secondItem="YUw-Sv-asn" secondAttribute="bottom" constant="47" id="b12-8Z-eTe"/>
+                            <constraint firstItem="bJH-gQ-vIb" firstAttribute="bottom" secondItem="ocA-V7-PHk" secondAttribute="bottom" id="bgm-LM-Jdn"/>
+                            <constraint firstItem="PkY-c6-3GW" firstAttribute="centerY" secondItem="fjr-QV-4dN" secondAttribute="centerY" id="d4b-Xt-vGa"/>
+                            <constraint firstItem="NMq-3G-qnA" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vWt-bG-6ju" secondAttribute="bottom" constant="260" id="fNT-qp-lH9"/>
+                            <constraint firstItem="L0M-vu-YjW" firstAttribute="centerX" secondItem="q7G-NB-MUv" secondAttribute="centerX" id="flB-0g-Uan"/>
+                            <constraint firstItem="9eU-kM-6ry" firstAttribute="centerY" secondItem="PkY-c6-3GW" secondAttribute="centerY" constant="1" id="hTf-QH-uMy"/>
+                            <constraint firstItem="NMq-3G-qnA" firstAttribute="top" secondItem="ocA-V7-PHk" secondAttribute="bottom" constant="50" id="mCL-Rc-rgr"/>
+                            <constraint firstItem="PkY-c6-3GW" firstAttribute="centerX" secondItem="fjr-QV-4dN" secondAttribute="centerX" constant="-0.5" id="o2k-ZJ-K4Q"/>
+                            <constraint firstItem="AUa-IX-8uF" firstAttribute="top" secondItem="YUw-Sv-asn" secondAttribute="bottom" constant="94" id="qiN-fB-HUB"/>
+                            <constraint firstItem="69f-hh-h00" firstAttribute="centerY" secondItem="AUa-IX-8uF" secondAttribute="centerY" constant="1" id="uYK-oh-iJ8"/>
+                            <constraint firstItem="q7G-NB-MUv" firstAttribute="centerX" secondItem="zYJ-pQ-47F" secondAttribute="centerX" id="wwW-LY-zbu"/>
+                            <constraint firstItem="Mmt-nE-Kex" firstAttribute="centerX" secondItem="69f-hh-h00" secondAttribute="centerX" constant="-1.5" id="xaT-8v-sj0"/>
+                            <constraint firstItem="L0M-vu-YjW" firstAttribute="centerY" secondItem="q7G-NB-MUv" secondAttribute="centerY" id="z2M-fT-d1a"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="adelynBanner" destination="c2j-DP-hMy" id="NlX-tC-nc0"/>
+                        <outlet property="balloon_1" destination="ehq-RN-sKd" id="DHS-Hq-Deb"/>
+                        <outlet property="balloon_10" destination="LFm-zk-H8x" id="Trh-UF-hE4"/>
+                        <outlet property="balloon_11" destination="b9i-4p-3ma" id="UFw-kn-4xd"/>
+                        <outlet property="balloon_12" destination="fwP-ai-5Nt" id="jER-DC-aVe"/>
+                        <outlet property="balloon_2" destination="mFW-I6-WXt" id="Ajq-ZO-gEK"/>
+                        <outlet property="balloon_3" destination="NmO-dI-B5i" id="uqz-33-Tyq"/>
+                        <outlet property="balloon_4" destination="CFw-T7-MpT" id="M3p-N9-zQ2"/>
+                        <outlet property="balloon_5" destination="vFD-wS-ota" id="1qy-gx-1qT"/>
+                        <outlet property="balloon_6" destination="S0h-3r-dTh" id="1Xq-5H-dIH"/>
+                        <outlet property="balloon_7" destination="pMk-mb-P3v" id="sOu-gT-kfd"/>
+                        <outlet property="balloon_8" destination="pO4-Bh-pWf" id="twn-bk-DDE"/>
+                        <outlet property="balloon_9" destination="1bZ-C9-r4C" id="CkK-3H-OSn"/>
+                        <outlet property="birthdayBanner" destination="i4y-LL-ozS" id="aFf-v0-8Kv"/>
+                        <outlet property="bottomPlayButton" destination="x7p-NB-pov" id="70C-5n-K5Z"/>
+                        <outlet property="bottomUnclesLabel" destination="9eU-kM-6ry" id="Qng-Y4-W1Z"/>
+                        <outlet property="bottomVideoFrame" destination="fjr-QV-4dN" id="gB6-9z-rrV"/>
+                        <outlet property="cardDoorsView" destination="q7G-NB-MUv" id="Mud-vg-dEG"/>
+                        <outlet property="celebrationView" destination="L0M-vu-YjW" id="0bF-mx-HO0"/>
+                        <outlet property="happyBanner" destination="fb5-ox-NhG" id="c4U-4Y-mq4"/>
+                        <outlet property="interiorKeyOutlet" destination="ocA-V7-PHk" id="Rje-on-PnL"/>
+                        <outlet property="keyNumberOne" destination="aaQ-Xc-cAU" id="hUQ-Lz-Okr"/>
+                        <outlet property="keyNumberThree" destination="b2g-wW-7K6" id="MC2-7l-pCB"/>
+                        <outlet property="keyNumberTwo" destination="eMq-ip-e4W" id="bQU-0i-cc3"/>
+                        <outlet property="lockButtonOutlet" destination="oqT-wc-U73" id="imr-lc-hKy"/>
+                        <outlet property="muteButtonOutlet" destination="bJH-gQ-vIb" id="kvp-EK-Vit"/>
+                        <outlet property="quizPopup" destination="DE5-1o-sK9" id="fN1-6W-L8J"/>
+                        <outlet property="topPlayButton" destination="hyf-TQ-JOr" id="hEO-9S-wbx"/>
+                        <outlet property="topUnclesLabel" destination="Mmt-nE-Kex" id="k03-ND-goK"/>
+                        <outlet property="topVideoFrame" destination="AUa-IX-8uF" id="iud-hz-qDu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ESM-WT-dPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-94.53125" y="113.67187499999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="HBD_Adelyn" width="1541" height="369"/>
+        <image name="HBD_Background" width="1536" height="2048"/>
+        <image name="HBD_Balloon_1" width="255" height="653"/>
+        <image name="HBD_Balloon_2" width="254" height="653"/>
+        <image name="HBD_Birthday" width="1541" height="369"/>
+        <image name="HBD_Door" width="769" height="2049"/>
+        <image name="HBD_Frame_1" width="1020" height="812"/>
+        <image name="HBD_Frame_2" width="1020" height="813"/>
+        <image name="HBD_Happy" width="1541" height="371"/>
+        <image name="HBD_Key_1" width="205" height="582"/>
+        <image name="HBD_Key_2" width="205" height="582"/>
+        <image name="HBD_Key_3" width="205" height="582"/>
+        <image name="HBD_Lock" width="256" height="255"/>
+        <image name="HBD_LockSmall" width="131" height="130"/>
+        <image name="HBD_MusicOff" width="132" height="130"/>
+        <image name="HBD_MusicOn" width="132" height="130"/>
+        <image name="HBD_Play" width="155" height="156"/>
+        <image name="HBD_Pop_Up" width="1257" height="1256"/>
+        <image name="HBD_Uncles_1" width="732" height="482"/>
+        <image name="HBD_Uncles_2" width="545" height="481"/>
+    </resources>
+</document>

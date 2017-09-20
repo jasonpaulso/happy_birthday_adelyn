@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E0632BF1EDDC368008158E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E0632BE1EDDC368008158E1 /* Assets.xcassets */; };
+		9E0B77C81EDD119D0016A949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B77C71EDD119D0016A949 /* AppDelegate.swift */; };
+		9E0B77CA1EDD119D0016A949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0B77C91EDD119D0016A949 /* ViewController.swift */; };
+		9E0B77CD1EDD119D0016A949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B77CB1EDD119D0016A949 /* Main.storyboard */; };
+		9E0B77D21EDD119D0016A949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B77D01EDD119D0016A949 /* LaunchScreen.storyboard */; };
+		9E0B77DA1EDD1C590016A949 /* WARDoorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0B77D91EDD1C590016A949 /* WARDoorView.framework */; };
+		9ECCF5031EDFB70F004014E0 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ECCF5021EDFB70F004014E0 /* song.mp3 */; };
+		9ECCF5051EE0CAEA004014E0 /* fairy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9ECCF5041EE0CAEA004014E0 /* fairy.wav */; };
+		9ECCF5071EE0CC13004014E0 /* thunk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9ECCF5061EE0CC13004014E0 /* thunk.wav */; };
+		9ECCF5091EE30E50004014E0 /* m&c.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 9ECCF5081EE30E50004014E0 /* m&c.MOV */; };
+		9ECCF50B1EE33E4D004014E0 /* Anton & Jason HBDA.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9ECCF50A1EE33E4D004014E0 /* Anton & Jason HBDA.mp4 */; };
+		D7DA0EAD4C5B8D496C50B89C /* Pods_Happy_Birthday_Adelyn_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8813112294239E5ABD432421 /* Pods_Happy_Birthday_Adelyn_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F14568E3FD26BE0F3A4C0AF /* Pods-Happy Birthday Adelyn!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Birthday Adelyn!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Birthday Adelyn!/Pods-Happy Birthday Adelyn!.release.xcconfig"; sourceTree = "<group>"; };
+		668F81B9096ABB72E51EDE8B /* Pods-Happy Birthday Adelyn!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy Birthday Adelyn!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy Birthday Adelyn!/Pods-Happy Birthday Adelyn!.debug.xcconfig"; sourceTree = "<group>"; };
+		8813112294239E5ABD432421 /* Pods_Happy_Birthday_Adelyn_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happy_Birthday_Adelyn_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0632BE1EDDC368008158E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E0B77C41EDD119D0016A949 /* Happy Birthday Adelyn!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Birthday Adelyn!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0B77C71EDD119D0016A949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E0B77C91EDD119D0016A949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E0B77CC1EDD119D0016A949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E0B77D11EDD119D0016A949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E0B77D31EDD119D0016A949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0B77D91EDD1C590016A949 /* WARDoorView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WARDoorView.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Happy_Birthday_Adelyn!-btiabhqhlntpazdokrgbvkaettcy/Build/Products/Debug-iphonesimulator/WARDoorView/WARDoorView.framework"; sourceTree = "<group>"; };
+		9ECCF5021EDFB70F004014E0 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		9ECCF5041EE0CAEA004014E0 /* fairy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fairy.wav; sourceTree = "<group>"; };
+		9ECCF5061EE0CC13004014E0 /* thunk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thunk.wav; sourceTree = "<group>"; };
+		9ECCF5081EE30E50004014E0 /* m&c.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "m&c.MOV"; sourceTree = "<group>"; };
+		9ECCF50A1EE33E4D004014E0 /* Anton & Jason HBDA.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Anton & Jason HBDA.mp4"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E0B77C11EDD119D0016A949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0B77DA1EDD1C590016A949 /* WARDoorView.framework in Frameworks */,
+				D7DA0EAD4C5B8D496C50B89C /* Pods_Happy_Birthday_Adelyn_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		545FBF392C706311F6E4FBFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				668F81B9096ABB72E51EDE8B /* Pods-Happy Birthday Adelyn!.debug.xcconfig */,
+				4F14568E3FD26BE0F3A4C0AF /* Pods-Happy Birthday Adelyn!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		81D3CF6486D68F5BE6525FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B77D91EDD1C590016A949 /* WARDoorView.framework */,
+				8813112294239E5ABD432421 /* Pods_Happy_Birthday_Adelyn_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E0B77BB1EDD119D0016A949 = {
+			isa = PBXGroup;
+			children = (
+				9E0B77C61EDD119D0016A949 /* Happy Birthday Adelyn! */,
+				9E0B77C51EDD119D0016A949 /* Products */,
+				545FBF392C706311F6E4FBFF /* Pods */,
+				81D3CF6486D68F5BE6525FBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E0B77C51EDD119D0016A949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B77C41EDD119D0016A949 /* Happy Birthday Adelyn!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E0B77C61EDD119D0016A949 /* Happy Birthday Adelyn! */ = {
+			isa = PBXGroup;
+			children = (
+				9ECCF50A1EE33E4D004014E0 /* Anton & Jason HBDA.mp4 */,
+				9ECCF5041EE0CAEA004014E0 /* fairy.wav */,
+				9ECCF5061EE0CC13004014E0 /* thunk.wav */,
+				9ECCF5081EE30E50004014E0 /* m&c.MOV */,
+				9ECCF5021EDFB70F004014E0 /* song.mp3 */,
+				9E0632BE1EDDC368008158E1 /* Assets.xcassets */,
+				9E0B77C71EDD119D0016A949 /* AppDelegate.swift */,
+				9E0B77C91EDD119D0016A949 /* ViewController.swift */,
+				9E0B77CB1EDD119D0016A949 /* Main.storyboard */,
+				9E0B77D01EDD119D0016A949 /* LaunchScreen.storyboard */,
+				9E0B77D31EDD119D0016A949 /* Info.plist */,
+			);
+			path = "Happy Birthday Adelyn!";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E0B77C31EDD119D0016A949 /* Happy Birthday Adelyn! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0B77D61EDD119D0016A949 /* Build configuration list for PBXNativeTarget "Happy Birthday Adelyn!" */;
+			buildPhases = (
+				49AC99E249C9F7D76780D7FC /* [CP] Check Pods Manifest.lock */,
+				9E0B77C01EDD119D0016A949 /* Sources */,
+				9E0B77C11EDD119D0016A949 /* Frameworks */,
+				9E0B77C21EDD119D0016A949 /* Resources */,
+				3F47D0619A477181DEECD9D7 /* [CP] Embed Pods Frameworks */,
+				4FB0FB665AB31C5DEC64E2D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Birthday Adelyn!";
+			productName = "Happy Birthday Adelyn!";
+			productReference = 9E0B77C41EDD119D0016A949 /* Happy Birthday Adelyn!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E0B77BC1EDD119D0016A949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jason Southwell";
+				TargetAttributes = {
+					9E0B77C31EDD119D0016A949 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5PDMD78Q2H;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9E0B77BF1EDD119D0016A949 /* Build configuration list for PBXProject "Happy Birthday Adelyn!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E0B77BB1EDD119D0016A949;
+			productRefGroup = 9E0B77C51EDD119D0016A949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E0B77C31EDD119D0016A949 /* Happy Birthday Adelyn! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E0B77C21EDD119D0016A949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0B77D21EDD119D0016A949 /* LaunchScreen.storyboard in Resources */,
+				9ECCF5071EE0CC13004014E0 /* thunk.wav in Resources */,
+				9E0632BF1EDDC368008158E1 /* Assets.xcassets in Resources */,
+				9E0B77CD1EDD119D0016A949 /* Main.storyboard in Resources */,
+				9ECCF5091EE30E50004014E0 /* m&c.MOV in Resources */,
+				9ECCF50B1EE33E4D004014E0 /* Anton & Jason HBDA.mp4 in Resources */,
+				9ECCF5031EDFB70F004014E0 /* song.mp3 in Resources */,
+				9ECCF5051EE0CAEA004014E0 /* fairy.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F47D0619A477181DEECD9D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Birthday Adelyn!/Pods-Happy Birthday Adelyn!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49AC99E249C9F7D76780D7FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FB0FB665AB31C5DEC64E2D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Happy Birthday Adelyn!/Pods-Happy Birthday Adelyn!-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E0B77C01EDD119D0016A949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0B77CA1EDD119D0016A949 /* ViewController.swift in Sources */,
+				9E0B77C81EDD119D0016A949 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E0B77CB1EDD119D0016A949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0B77CC1EDD119D0016A949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E0B77D01EDD119D0016A949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0B77D11EDD119D0016A949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E0B77D41EDD119D0016A949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9E0B77D51EDD119D0016A949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E0B77D71EDD119D0016A949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668F81B9096ABB72E51EDE8B /* Pods-Happy Birthday Adelyn!.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PDMD78Q2H;
+				INFOPLIST_FILE = "Happy Birthday Adelyn!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jason-southwell.Happy-Birthday-Adelyn-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9E0B77D81EDD119D0016A949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F14568E3FD26BE0F3A4C0AF /* Pods-Happy Birthday Adelyn!.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5PDMD78Q2H;
+				INFOPLIST_FILE = "Happy Birthday Adelyn!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jason-southwell.Happy-Birthday-Adelyn-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E0B77BF1EDD119D0016A949 /* Build configuration list for PBXProject "Happy Birthday Adelyn!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0B77D41EDD119D0016A949 /* Debug */,
+				9E0B77D51EDD119D0016A949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E0B77D61EDD119D0016A949 /* Build configuration list for PBXNativeTarget "Happy Birthday Adelyn!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0B77D71EDD119D0016A949 /* Debug */,
+				9E0B77D81EDD119D0016A949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E0B77BC1EDD119D0016A949 /* Project object */;
+}

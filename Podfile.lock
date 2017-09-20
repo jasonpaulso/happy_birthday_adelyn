@@ -1,0 +1,34 @@
+PODS:
+  - SAConfettiView (0.1.8)
+  - Spring (1.0.3)
+  - SwiftVideoBackground (0.06)
+  - Twinkle (0.2.4)
+  - WARDoorView (2.1.0)
+
+DEPENDENCIES:
+  - SAConfettiView
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftVideoBackground
+  - Twinkle (~> 0.2.0)
+  - WARDoorView
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 8201b5c93bd7ebdf4cd18160bcde1e6e88c2be64
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftVideoBackground: 9099e41be1afad9f726cfc2014accb3330ad7ec1
+  Twinkle: e2db6d5df657ac74f8a1c5820dc9c1905785e5f7
+  WARDoorView: a65aa9d15dd313f3a0f516d94fe9b0aa8901cb34
+
+PODFILE CHECKSUM: 9d025d5d43013831546a2f3fb003801513bc15e2
+
+COCOAPODS: 1.1.1

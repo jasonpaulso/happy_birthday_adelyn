@@ -1,0 +1,1539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		058FF3E6C2E7A44A0C74238CDE7FF960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		0AA495A8A4AAC67BED3EA8A57D3DA4AC /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFB79DD69420D2344A36185CB1F703B /* LoadingView.swift */; };
+		0D2675D256F52E515771DFED54F3A7E0 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE6A4FB2B186D3D5A2A4CD62E509C6B /* AsyncButton.swift */; };
+		0D83A97F4DEE8001E70DD598018891F8 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199F11D263FCF5AD4EE29A22B393ADA5 /* KeyboardLayoutConstraint.swift */; };
+		14C2BA04BB2F25ABEDEB912C2CA45DDC /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DDB6A11156122F3A1C62D63CBC232D /* SoundPlayer.swift */; };
+		1E5102B46C287AF1C26AD2C92309E442 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
+		1EE5E84D60D66C035A141B5BE83DEDAD /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F442F1464D23CFE174AA98B3B9F45D /* SpringTextField.swift */; };
+		2099EA72261EE6F599275FE334C75927 /* WARDoorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9332DB05120EE4E729DF98C11E741BC5 /* WARDoorView-dummy.m */; };
+		2549530C6C36A991968C9F164F25B4E5 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 20C7F63603797ABCAFC512EBDAC4D043 /* diamond.png */; };
+		291E5023BC48D7B7B8566A22D56F8558 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB43B36220B04AA43EAA0BBD11B388E /* UnwindSegue.swift */; };
+		331CD9E1999CA8F4F6153A54694A74F5 /* Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BAEA97533946B56F8A9B243E11B3AA /* Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		364E91243EA048ABAB07F8EEF7545777 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3358A5DC98D0EB44D985CAE80231353 /* TransitionZoom.swift */; };
+		3F69687490DC97AFDC54798C9634F2A6 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = B284DC5CADD98004CFACF3646B4286C0 /* triangle.png */; };
+		44DA457EB56D13793800B71B7725228F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		498FE3979867C60669CE6CAA803DF8CA /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394A122B4D9CF2318444DE55983AFF13 /* AsyncImageView.swift */; };
+		4CD1DAE9FD41C51DEBACF6855A4180ED /* TwinkleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB143891056C184AC3F122EE85F8655 /* TwinkleImage.png */; };
+		5279FBBC63C6604626691F95A82FA8E6 /* rightDoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D792DC03F468D97E1E8E4F76FF52D25 /* rightDoor.png */; };
+		5B58C1F488C57B560044B2D44FBA7214 /* Twinkle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B21E48840B3A504A37DABF5F7642FA55 /* Twinkle-dummy.m */; };
+		5BE2044E831768086D447A7DECF9EE91 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E5132A0757CF075EF3EEC084FDC3CE /* Spring.swift */; };
+		5F181C7BF6260F897A70ADF5B249D01B /* leftDoor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4BE96EE711E1C8C4A130260FB92CB2 /* leftDoor.png */; };
+		60809DE84C29AD3F71DDAF7D94092256 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BF225DBFC49F58BCEEDE9C68A8353F7 /* LoadingView.xib */; };
+		6685BDDB1D551925D42824BAC4CBF2F5 /* Pods-Happy Birthday Adelyn!-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB96775F456D66FE0F7F941F1C1385F2 /* Pods-Happy Birthday Adelyn!-dummy.m */; };
+		690D32B837DA13C989F8BD25C284AC8B /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6EDF09E65BE403DBC87D228CE2D5E4 /* confetti.png */; };
+		6D23A33DBEA3192EE4F9B9C6757E50F1 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E87BB67A51E55E163901AF6C45D68B7 /* DesignableView.swift */; };
+		6F4FAE3D1C3335221255967F9792D395 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
+		75F09B75593BCBDBD4A5A8C783CE56B0 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8356031A8E0831CD3D271C6C564E57D /* SpringAnimation.swift */; };
+		7664CDF4379809C66B4B85E54A46E180 /* WARDoorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2B1B4BA6B6923DFF3F5104581F8748 /* WARDoorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76676D3CE2036C9B2E92A748688186AB /* WARDoorView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 33F16C2AA85D4686A253DB29CFF471DA /* WARDoorView.xib */; };
+		78257DA2D306DA3500B28D1D33D43003 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F74A7DD92B31852299D94C4EC7EF29 /* SAConfettiView.swift */; };
+		7974AE91F5CE124001ACE0C9473F864C /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF2D9F6EDCFCC9522B6FB216914F207 /* Misc.swift */; };
+		7A9D584B4001538EC68F97D02BA98CE0 /* Twinkle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCE8B9D24935CEA0E8FB6DC85F191984 /* Twinkle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B17EB65F77CE0E632DCCD39CD44CBBE /* SwiftVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4415847A21C8AA74A9CCCEEC7C8E5626 /* SwiftVideoBackground-dummy.m */; };
+		8B9960478F74A7A598101B3F2CE55696 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B655159BFFE71BA031B92A5A669E65 /* SpringLabel.swift */; };
+		8C6603AD80A04D46B4ED657F80BCA581 /* SwiftVideoBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C093931DB0A15DBD7715AC1AE4669FBC /* SwiftVideoBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F939ECB6CEAB8BF134B86BA80020252 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37125E761A22E2220B59A6E4009F95D /* Images.xcassets */; };
+		92B05C1A420B4FF81F75820A4626C7BD /* WARDoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF4D6D462EDBB275D55A1C4BC10A40 /* WARDoorView.swift */; };
+		94355CFB4A8B90F60A294A48FA0809D1 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F247D38F1D2FCE2FC15D03EBBC5A825A /* DesignableTextField.swift */; };
+		9B132243D27363FB01F0E453DCB86D5E /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F58A89D00911C7B339138231743720 /* SpringImageView.swift */; };
+		A71E0AA8AEE7A47E1F430D937E02DB96 /* room.png in Resources */ = {isa = PBXBuildFile; fileRef = 128BE7E971BACB5822C99CD028BF167A /* room.png */; };
+		AAE8B8E396038632CCFDD73543F20F1A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AF6B8DFC4315D9B6DD8A3573688C33 /* star.png */; };
+		AE0D98E5ADD425C4D2F59B3903B77DCB /* SAConfettiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3522005458F7C1900B22B7DB9FD45141 /* SAConfettiView.bundle */; };
+		B6C92DDF762CD3FBB434A4E3EAC8CFC6 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DEFE1DD1D6AEFB2DC51512198E5CBF /* TransitionManager.swift */; };
+		BDCBCA48CAD66FEDF435516CD7346EB0 /* SAConfettiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A2B028AE5CDC2AA6AFA923A47C739E /* SAConfettiView-dummy.m */; };
+		BF299FCEF62C7B235DE54126031A476D /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82AF2D0BD9D33127DAA3163F5F3647 /* BlurView.swift */; };
+		C641595E31738D9C31D955BA700610F4 /* Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC61F53BA09FACA71947077692A79E2A /* Spring-dummy.m */; };
+		C92FDAEFE6AD38AC5E7F9E9E550203B9 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1992165EEA4D5C3D83F9697553DC70 /* AutoTextView.swift */; };
+		CC562D5757044B7737916A307115C9E0 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B9EA3C555B78DA50EBC1AD6AD657B6 /* SpringTextView.swift */; };
+		CD8880BAA7A9E0AAB86202CA0C107AC1 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F6A20B0720CDE77499EED5D73E912D /* SpringButton.swift */; };
+		CE47A12375E1EF1C9C9FF3B352B333BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		D1442018B973046C4592CD405B10042C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE53D44784184341734A6E08F58A861 /* ImageLoader.swift */; };
+		D437DC234E4339D93F9504F98CD82EDF /* Pods-Happy Birthday Adelyn!-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 303BCEEEF5402B7D76E9F7A229F393D4 /* Pods-Happy Birthday Adelyn!-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4AB5CB02D13669E57370BB8479BBF64 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A2D864946CF56DF02EB6B7A6EA1E5 /* DesignableTabBarController.swift */; };
+		D640FCCC64F0C5EFE5658445C98CE6DE /* SAConfettiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D01766FAAD7C5C4B5327465DE722F69E /* SAConfettiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD87AC547FC4E5E7E7965B8C5DE222C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		E02DB06E6907C55D6886F5003A44DD72 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46F488AF40760204E7DE51534BB0889 /* DesignableLabel.swift */; };
+		E3010E5F5712D08DB5950E870AC0C42F /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF053282215C0F24D3DA222E0B77E5DE /* DesignableTextView.swift */; };
+		E7F47406F58D70CEE3D2B41E75AA2BDC /* Twinkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23791EA0F7CEA30718B477E693F2BD3C /* Twinkle.swift */; };
+		E8E1CD13C352F4CEDCE193CBF8E9AFFB /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF00AB61726010AEC4D2B1E6AB9CC17 /* DesignableButton.swift */; };
+		EDD3F4BC021DDA61E9D9DE2E0FA3BEE2 /* SwiftVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B7061792124031CD987338D579CF6 /* SwiftVideoBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F02AA33823C200649E117B7FBAB2BA4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		F0E55F8601F8AB7EBF1CC514A5A8A571 /* BackgroundVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84324D48A912C5C55CEE8E5FD2C0590 /* BackgroundVideo.swift */; };
+		F877DFD98112EC47E3853E4CD16E68DE /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3C01A6987FE943403EF23D8758D65 /* SpringView.swift */; };
+		F8CFE1B09A2D5E4CEE2248CEFEB782E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		FDAA1FED1BCBCD288B50D5056F0148F9 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14BFFBA4783AF0F86D34F7DF4913926 /* DesignableImageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		099412D850B47E737BF29DF48FE4492D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FB41472F86AEF0C4A35A5D2DFBEB370;
+			remoteInfo = "SAConfettiView-SAConfettiView";
+		};
+		383FDF226A6F03DC8074D33E6B4B197D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 378A1AA3D0B177C239C1A906E94D9510;
+			remoteInfo = SAConfettiView;
+		};
+		5492799F3876EC43CB70972EABCB7F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E57A4C06D1340F70D084D7F38E4CF82;
+			remoteInfo = Spring;
+		};
+		7ED0E851C8075D699ABCD188C8C54DF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAA5F3B3FAD1E5C0B4016949EAD7A426;
+			remoteInfo = Twinkle;
+		};
+		9E4230BE17F348549A8BEED7A05E1301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81C544E2CA543B15B89C0657A47424A;
+			remoteInfo = WARDoorView;
+		};
+		F16390FAC420BE0C363495832B87285A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586BB65EB1686B909BE2ADDCEEEF44A3;
+			remoteInfo = SwiftVideoBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F58A89D00911C7B339138231743720 /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		0AB2DF5724749A2B7A1D419558EAB8C2 /* SwiftVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-prefix.pch"; sourceTree = "<group>"; };
+		10F442F1464D23CFE174AA98B3B9F45D /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		11AF6B8DFC4315D9B6DD8A3573688C33 /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; name = star.png; path = Pod/Assets/star.png; sourceTree = "<group>"; };
+		128BE7E971BACB5822C99CD028BF167A /* room.png */ = {isa = PBXFileReference; includeInIndex = 1; name = room.png; path = Pod/Assets/room.png; sourceTree = "<group>"; };
+		141CEDA8EA4DB229A603B8FF53137EBB /* SAConfettiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAConfettiView.xcconfig; sourceTree = "<group>"; };
+		141EC5F6B7178885A4D15E1139A7B186 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172DD7B379BF6FABEA2E1883F321900A /* SAConfettiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SAConfettiView.modulemap; sourceTree = "<group>"; };
+		199F11D263FCF5AD4EE29A22B393ADA5 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		1D7862FA0F03A930B99E42F30659134A /* Twinkle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Twinkle.modulemap; sourceTree = "<group>"; };
+		1E3D4FEB861E3B9F88BA5164E7DDABCD /* Pods-Happy Birthday Adelyn!-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Happy Birthday Adelyn!-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F26D34351C5913C7EC44F6E5ECE5DB6 /* Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spring.xcconfig; sourceTree = "<group>"; };
+		1FF00AB61726010AEC4D2B1E6AB9CC17 /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		20C7F63603797ABCAFC512EBDAC4D043 /* diamond.png */ = {isa = PBXFileReference; includeInIndex = 1; name = diamond.png; path = Pod/Assets/diamond.png; sourceTree = "<group>"; };
+		22C26F8CA3138D5E0FCBF8E93496C839 /* Pods-Happy Birthday Adelyn!-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Happy Birthday Adelyn!-resources.sh"; sourceTree = "<group>"; };
+		23791EA0F7CEA30718B477E693F2BD3C /* Twinkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Twinkle.swift; path = Sources/Twinkle.swift; sourceTree = "<group>"; };
+		28DEFE1DD1D6AEFB2DC51512198E5CBF /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		2B1992165EEA4D5C3D83F9697553DC70 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		2BDEB006E5E78080E008426DDAA2E4F4 /* Pods_Happy_Birthday_Adelyn_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Happy_Birthday_Adelyn_.framework; path = "Pods-Happy Birthday Adelyn!.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF2D9F6EDCFCC9522B6FB216914F207 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		2E00BF96F9496040776E1D7889E730C9 /* Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-prefix.pch"; sourceTree = "<group>"; };
+		2E5F4D131346A5A11DD3CC73C7F65F4F /* WARDoorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WARDoorView-prefix.pch"; sourceTree = "<group>"; };
+		303BCEEEF5402B7D76E9F7A229F393D4 /* Pods-Happy Birthday Adelyn!-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Happy Birthday Adelyn!-umbrella.h"; sourceTree = "<group>"; };
+		33F16C2AA85D4686A253DB29CFF471DA /* WARDoorView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = WARDoorView.xib; path = Pod/Classes/WARDoorView/WARDoorView.xib; sourceTree = "<group>"; };
+		34E5132A0757CF075EF3EEC084FDC3CE /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		3522005458F7C1900B22B7DB9FD45141 /* SAConfettiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SAConfettiView.bundle; path = SAConfettiView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		394A122B4D9CF2318444DE55983AFF13 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		3BF225DBFC49F58BCEEDE9C68A8353F7 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		3D792DC03F468D97E1E8E4F76FF52D25 /* rightDoor.png */ = {isa = PBXFileReference; includeInIndex = 1; name = rightDoor.png; path = Pod/Assets/rightDoor.png; sourceTree = "<group>"; };
+		40BAEA97533946B56F8A9B243E11B3AA /* Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spring-umbrella.h"; sourceTree = "<group>"; };
+		4415847A21C8AA74A9CCCEEC7C8E5626 /* SwiftVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoBackground-dummy.m"; sourceTree = "<group>"; };
+		5AB43B36220B04AA43EAA0BBD11B388E /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BFB79DD69420D2344A36185CB1F703B /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		5FD280F41301A7C543B7F822461DD6C0 /* SAConfettiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAConfettiView.framework; path = SAConfettiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EBC689E1D2BCF7BFE9F41D59E01811 /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spring.framework; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6498319D72FF0CD0419809334AEE6739 /* Twinkle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Twinkle.xcconfig; sourceTree = "<group>"; };
+		6A0AB7007A1B8A08DBA043A63F30B239 /* Pods-Happy Birthday Adelyn!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Happy Birthday Adelyn!.debug.xcconfig"; sourceTree = "<group>"; };
+		711CB8DCD614E04A4C6FA9CCA597F3FD /* SwiftVideoBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftVideoBackground.modulemap; sourceTree = "<group>"; };
+		75B655159BFFE71BA031B92A5A669E65 /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		76F6A20B0720CDE77499EED5D73E912D /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		81AAD42C32A623C204C89B28AE7C626E /* Twinkle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Twinkle-prefix.pch"; sourceTree = "<group>"; };
+		85F74A7DD92B31852299D94C4EC7EF29 /* SAConfettiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAConfettiView.swift; path = Pod/Classes/SAConfettiView.swift; sourceTree = "<group>"; };
+		88085A885560F4FC66A4AC46F1562641 /* Twinkle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Twinkle.framework; path = Twinkle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EE170D71FFAF3C3D11570D159AD6E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE6A4FB2B186D3D5A2A4CD62E509C6B /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		8F4BE96EE711E1C8C4A130260FB92CB2 /* leftDoor.png */ = {isa = PBXFileReference; includeInIndex = 1; name = leftDoor.png; path = Pod/Assets/leftDoor.png; sourceTree = "<group>"; };
+		8F65C60845F4CBBA5002573A3D22BC0A /* Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Spring.modulemap; sourceTree = "<group>"; };
+		9332DB05120EE4E729DF98C11E741BC5 /* WARDoorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WARDoorView-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98DDB6A11156122F3A1C62D63CBC232D /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		9AE53D44784184341734A6E08F58A861 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		9B2B1B4BA6B6923DFF3F5104581F8748 /* WARDoorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WARDoorView-umbrella.h"; sourceTree = "<group>"; };
+		9B6EDF09E65BE403DBC87D228CE2D5E4 /* confetti.png */ = {isa = PBXFileReference; includeInIndex = 1; name = confetti.png; path = Pod/Assets/confetti.png; sourceTree = "<group>"; };
+		9E87BB67A51E55E163901AF6C45D68B7 /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		A05A2D864946CF56DF02EB6B7A6EA1E5 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		A46F488AF40760204E7DE51534BB0889 /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		AB82AF2D0BD9D33127DAA3163F5F3647 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		B14BFFBA4783AF0F86D34F7DF4913926 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		B21E48840B3A504A37DABF5F7642FA55 /* Twinkle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Twinkle-dummy.m"; sourceTree = "<group>"; };
+		B284DC5CADD98004CFACF3646B4286C0 /* triangle.png */ = {isa = PBXFileReference; includeInIndex = 1; name = triangle.png; path = Pod/Assets/triangle.png; sourceTree = "<group>"; };
+		B293E64E65B0FB1AC23CD4A2C2356A0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B62F374D8B518D1EA046A86CAA88B6EF /* WARDoorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WARDoorView.framework; path = WARDoorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8356031A8E0831CD3D271C6C564E57D /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		B8B9EA3C555B78DA50EBC1AD6AD657B6 /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		B979846D9D1255342EB97E250DFA7E0C /* ResourceBundle-SAConfettiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SAConfettiView-Info.plist"; sourceTree = "<group>"; };
+		B9C3C01A6987FE943403EF23D8758D65 /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		BB13373E0751E846C2C390725C1E8350 /* SwiftVideoBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftVideoBackground.framework; path = SwiftVideoBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB370E161522BFA05D131650F8597A09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE8B9D24935CEA0E8FB6DC85F191984 /* Twinkle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Twinkle-umbrella.h"; sourceTree = "<group>"; };
+		BF5B69E18CF9165B75C5E5EC0717EB88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C093931DB0A15DBD7715AC1AE4669FBC /* SwiftVideoBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-umbrella.h"; sourceTree = "<group>"; };
+		C4A2B028AE5CDC2AA6AFA923A47C739E /* SAConfettiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfettiView-dummy.m"; sourceTree = "<group>"; };
+		C719E1994ED61B9B731359898A450141 /* Pods-Happy Birthday Adelyn!.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Happy Birthday Adelyn!.modulemap"; sourceTree = "<group>"; };
+		C84324D48A912C5C55CEE8E5FD2C0590 /* BackgroundVideo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundVideo.swift; path = SwiftVideoBackground/BackgroundVideo.swift; sourceTree = "<group>"; };
+		D01766FAAD7C5C4B5327465DE722F69E /* SAConfettiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-umbrella.h"; sourceTree = "<group>"; };
+		D1739629C6F6241F91116B8023E91645 /* WARDoorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WARDoorView.xcconfig; sourceTree = "<group>"; };
+		D3358A5DC98D0EB44D985CAE80231353 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		D37125E761A22E2220B59A6E4009F95D /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		D4AB2ACE40D731A3F8849235DBD8FC4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DA76B07ADABA3E69FE1D9897EB3238 /* Pods-Happy Birthday Adelyn!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Happy Birthday Adelyn!.release.xcconfig"; sourceTree = "<group>"; };
+		DC15C506337F70545E21B9CA37692AB7 /* Pods-Happy Birthday Adelyn!-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Happy Birthday Adelyn!-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E6B7581E64CA8D690CDD0345D645E7A6 /* Pods-Happy Birthday Adelyn!-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Happy Birthday Adelyn!-frameworks.sh"; sourceTree = "<group>"; };
+		E806887B6EF4F61894E7E6091907E526 /* SwiftVideoBackground.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.xcconfig; sourceTree = "<group>"; };
+		EACF4D6D462EDBB275D55A1C4BC10A40 /* WARDoorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WARDoorView.swift; path = Pod/Classes/WARDoorView/WARDoorView.swift; sourceTree = "<group>"; };
+		EACF5A0AE9A1621011588C76D5B831FA /* WARDoorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WARDoorView.modulemap; sourceTree = "<group>"; };
+		EB96775F456D66FE0F7F941F1C1385F2 /* Pods-Happy Birthday Adelyn!-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Happy Birthday Adelyn!-dummy.m"; sourceTree = "<group>"; };
+		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC61F53BA09FACA71947077692A79E2A /* Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spring-dummy.m"; sourceTree = "<group>"; };
+		EEB143891056C184AC3F122EE85F8655 /* TwinkleImage.png */ = {isa = PBXFileReference; includeInIndex = 1; name = TwinkleImage.png; path = Sources/Resources/TwinkleImage.png; sourceTree = "<group>"; };
+		EF053282215C0F24D3DA222E0B77E5DE /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		F247D38F1D2FCE2FC15D03EBBC5A825A /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		F29B7061792124031CD987338D579CF6 /* SwiftVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftVideoBackground.h; path = SwiftVideoBackground/SwiftVideoBackground.h; sourceTree = "<group>"; };
+		FD81E5F34F18F68179AB29EADFF698DB /* SAConfettiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfettiView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE1AAFD055043F630C563D8DE63A5C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD87AC547FC4E5E7E7965B8C5DE222C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62881C1CE765E02DDEE9F36DD2344900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CFE1B09A2D5E4CEE2248CEFEB782E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77DC676F102A63350BAEE880BFE6367C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FF3E6C2E7A44A0C74238CDE7FF960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AF37C432303328DECB1880E5AE3B6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF456C3266945C1B0C6279B99DB0DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA457EB56D13793800B71B7725228F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1AFB6DC250AB5F60146D6DDFFEE136E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE47A12375E1EF1C9C9FF3B352B333BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68518DC350B94D2EA069F23615D0518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02AA33823C200649E117B7FBAB2BA4F /* Foundation.framework in Frameworks */,
+				6F4FAE3D1C3335221255967F9792D395 /* QuartzCore.framework in Frameworks */,
+				1E5102B46C287AF1C26AD2C92309E442 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0574660E5D0DF57CD1F80372983881DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF5B69E18CF9165B75C5E5EC0717EB88 /* Info.plist */,
+				B979846D9D1255342EB97E250DFA7E0C /* ResourceBundle-SAConfettiView-Info.plist */,
+				172DD7B379BF6FABEA2E1883F321900A /* SAConfettiView.modulemap */,
+				141CEDA8EA4DB229A603B8FF53137EBB /* SAConfettiView.xcconfig */,
+				C4A2B028AE5CDC2AA6AFA923A47C739E /* SAConfettiView-dummy.m */,
+				FD81E5F34F18F68179AB29EADFF698DB /* SAConfettiView-prefix.pch */,
+				D01766FAAD7C5C4B5327465DE722F69E /* SAConfettiView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAConfettiView";
+			sourceTree = "<group>";
+		};
+		0589B685B7C24C196B94A5689CC2A7AF /* Pods-Happy Birthday Adelyn! */ = {
+			isa = PBXGroup;
+			children = (
+				89EE170D71FFAF3C3D11570D159AD6E2 /* Info.plist */,
+				C719E1994ED61B9B731359898A450141 /* Pods-Happy Birthday Adelyn!.modulemap */,
+				1E3D4FEB861E3B9F88BA5164E7DDABCD /* Pods-Happy Birthday Adelyn!-acknowledgements.markdown */,
+				DC15C506337F70545E21B9CA37692AB7 /* Pods-Happy Birthday Adelyn!-acknowledgements.plist */,
+				EB96775F456D66FE0F7F941F1C1385F2 /* Pods-Happy Birthday Adelyn!-dummy.m */,
+				E6B7581E64CA8D690CDD0345D645E7A6 /* Pods-Happy Birthday Adelyn!-frameworks.sh */,
+				22C26F8CA3138D5E0FCBF8E93496C839 /* Pods-Happy Birthday Adelyn!-resources.sh */,
+				303BCEEEF5402B7D76E9F7A229F393D4 /* Pods-Happy Birthday Adelyn!-umbrella.h */,
+				6A0AB7007A1B8A08DBA043A63F30B239 /* Pods-Happy Birthday Adelyn!.debug.xcconfig */,
+				D4DA76B07ADABA3E69FE1D9897EB3238 /* Pods-Happy Birthday Adelyn!.release.xcconfig */,
+			);
+			name = "Pods-Happy Birthday Adelyn!";
+			path = "Target Support Files/Pods-Happy Birthday Adelyn!";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17C0ECD61885C4DBD56B1338AE9D877A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B6EDF09E65BE403DBC87D228CE2D5E4 /* confetti.png */,
+				20C7F63603797ABCAFC512EBDAC4D043 /* diamond.png */,
+				11AF6B8DFC4315D9B6DD8A3573688C33 /* star.png */,
+				B284DC5CADD98004CFACF3646B4286C0 /* triangle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2277BD700D3BD8FA3709568D9DEEC03E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BDEB006E5E78080E008426DDAA2E4F4 /* Pods_Happy_Birthday_Adelyn_.framework */,
+				3522005458F7C1900B22B7DB9FD45141 /* SAConfettiView.bundle */,
+				5FD280F41301A7C543B7F822461DD6C0 /* SAConfettiView.framework */,
+				60EBC689E1D2BCF7BFE9F41D59E01811 /* Spring.framework */,
+				BB13373E0751E846C2C390725C1E8350 /* SwiftVideoBackground.framework */,
+				88085A885560F4FC66A4AC46F1562641 /* Twinkle.framework */,
+				B62F374D8B518D1EA046A86CAA88B6EF /* WARDoorView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3682B8B1E5A48D98BFF16A17147546BA /* SAConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				85F74A7DD92B31852299D94C4EC7EF29 /* SAConfettiView.swift */,
+				17C0ECD61885C4DBD56B1338AE9D877A /* Resources */,
+				0574660E5D0DF57CD1F80372983881DE /* Support Files */,
+			);
+			name = SAConfettiView;
+			path = SAConfettiView;
+			sourceTree = "<group>";
+		};
+		53C4A5D8BA1F13CF4A2F856261101188 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEB143891056C184AC3F122EE85F8655 /* TwinkleImage.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		569551392F84E23309241D309C003F22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B293E64E65B0FB1AC23CD4A2C2356A0B /* Info.plist */,
+				8F65C60845F4CBBA5002573A3D22BC0A /* Spring.modulemap */,
+				1F26D34351C5913C7EC44F6E5ECE5DB6 /* Spring.xcconfig */,
+				EC61F53BA09FACA71947077692A79E2A /* Spring-dummy.m */,
+				2E00BF96F9496040776E1D7889E730C9 /* Spring-prefix.pch */,
+				40BAEA97533946B56F8A9B243E11B3AA /* Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Spring";
+			sourceTree = "<group>";
+		};
+		5BFA1EFED7062661D054FA16863BB5BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4AB2ACE40D731A3F8849235DBD8FC4E /* Info.plist */,
+				EACF5A0AE9A1621011588C76D5B831FA /* WARDoorView.modulemap */,
+				D1739629C6F6241F91116B8023E91645 /* WARDoorView.xcconfig */,
+				9332DB05120EE4E729DF98C11E741BC5 /* WARDoorView-dummy.m */,
+				2E5F4D131346A5A11DD3CC73C7F65F4F /* WARDoorView-prefix.pch */,
+				9B2B1B4BA6B6923DFF3F5104581F8748 /* WARDoorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WARDoorView";
+			sourceTree = "<group>";
+		};
+		5FEE4120243FB676B4C031DA4F48FAA2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0589B685B7C24C196B94A5689CC2A7AF /* Pods-Happy Birthday Adelyn! */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72E44C83AC467EB65913E06CCE69973C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F4BE96EE711E1C8C4A130260FB92CB2 /* leftDoor.png */,
+				3D792DC03F468D97E1E8E4F76FF52D25 /* rightDoor.png */,
+				128BE7E971BACB5822C99CD028BF167A /* room.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				8312FA791C41FC1C3794CF848EFAC2BA /* Pods */,
+				2277BD700D3BD8FA3709568D9DEEC03E /* Products */,
+				5FEE4120243FB676B4C031DA4F48FAA2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8312FA791C41FC1C3794CF848EFAC2BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3682B8B1E5A48D98BFF16A17147546BA /* SAConfettiView */,
+				8A58138D0ACE6984CF9E356F8AF86145 /* Spring */,
+				9A031FF8C8066CF20CA0991028ECD82F /* SwiftVideoBackground */,
+				AC25673436FD9165804E84421749D88B /* Twinkle */,
+				DBD84F2B0B080DB197AD92B1DB171793 /* WARDoorView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		87D618B670049D9BC8E36E38B2513F37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB370E161522BFA05D131650F8597A09 /* Info.plist */,
+				1D7862FA0F03A930B99E42F30659134A /* Twinkle.modulemap */,
+				6498319D72FF0CD0419809334AEE6739 /* Twinkle.xcconfig */,
+				B21E48840B3A504A37DABF5F7642FA55 /* Twinkle-dummy.m */,
+				81AAD42C32A623C204C89B28AE7C626E /* Twinkle-prefix.pch */,
+				BCE8B9D24935CEA0E8FB6DC85F191984 /* Twinkle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Twinkle";
+			sourceTree = "<group>";
+		};
+		8A58138D0ACE6984CF9E356F8AF86145 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				8AE6A4FB2B186D3D5A2A4CD62E509C6B /* AsyncButton.swift */,
+				394A122B4D9CF2318444DE55983AFF13 /* AsyncImageView.swift */,
+				2B1992165EEA4D5C3D83F9697553DC70 /* AutoTextView.swift */,
+				AB82AF2D0BD9D33127DAA3163F5F3647 /* BlurView.swift */,
+				1FF00AB61726010AEC4D2B1E6AB9CC17 /* DesignableButton.swift */,
+				B14BFFBA4783AF0F86D34F7DF4913926 /* DesignableImageView.swift */,
+				A46F488AF40760204E7DE51534BB0889 /* DesignableLabel.swift */,
+				A05A2D864946CF56DF02EB6B7A6EA1E5 /* DesignableTabBarController.swift */,
+				F247D38F1D2FCE2FC15D03EBBC5A825A /* DesignableTextField.swift */,
+				EF053282215C0F24D3DA222E0B77E5DE /* DesignableTextView.swift */,
+				9E87BB67A51E55E163901AF6C45D68B7 /* DesignableView.swift */,
+				9AE53D44784184341734A6E08F58A861 /* ImageLoader.swift */,
+				199F11D263FCF5AD4EE29A22B393ADA5 /* KeyboardLayoutConstraint.swift */,
+				5BFB79DD69420D2344A36185CB1F703B /* LoadingView.swift */,
+				2CF2D9F6EDCFCC9522B6FB216914F207 /* Misc.swift */,
+				98DDB6A11156122F3A1C62D63CBC232D /* SoundPlayer.swift */,
+				34E5132A0757CF075EF3EEC084FDC3CE /* Spring.swift */,
+				B8356031A8E0831CD3D271C6C564E57D /* SpringAnimation.swift */,
+				76F6A20B0720CDE77499EED5D73E912D /* SpringButton.swift */,
+				04F58A89D00911C7B339138231743720 /* SpringImageView.swift */,
+				75B655159BFFE71BA031B92A5A669E65 /* SpringLabel.swift */,
+				10F442F1464D23CFE174AA98B3B9F45D /* SpringTextField.swift */,
+				B8B9EA3C555B78DA50EBC1AD6AD657B6 /* SpringTextView.swift */,
+				B9C3C01A6987FE943403EF23D8758D65 /* SpringView.swift */,
+				28DEFE1DD1D6AEFB2DC51512198E5CBF /* TransitionManager.swift */,
+				D3358A5DC98D0EB44D985CAE80231353 /* TransitionZoom.swift */,
+				5AB43B36220B04AA43EAA0BBD11B388E /* UnwindSegue.swift */,
+				D13F4DD2F7FC2E386E7E907156E620D7 /* Resources */,
+				569551392F84E23309241D309C003F22 /* Support Files */,
+			);
+			name = Spring;
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		9A031FF8C8066CF20CA0991028ECD82F /* SwiftVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				C84324D48A912C5C55CEE8E5FD2C0590 /* BackgroundVideo.swift */,
+				F29B7061792124031CD987338D579CF6 /* SwiftVideoBackground.h */,
+				C90BCE5EA24DBE125E4ACE82A765C584 /* Support Files */,
+			);
+			name = SwiftVideoBackground;
+			path = SwiftVideoBackground;
+			sourceTree = "<group>";
+		};
+		AC25673436FD9165804E84421749D88B /* Twinkle */ = {
+			isa = PBXGroup;
+			children = (
+				23791EA0F7CEA30718B477E693F2BD3C /* Twinkle.swift */,
+				53C4A5D8BA1F13CF4A2F856261101188 /* Resources */,
+				87D618B670049D9BC8E36E38B2513F37 /* Support Files */,
+			);
+			name = Twinkle;
+			path = Twinkle;
+			sourceTree = "<group>";
+		};
+		C90BCE5EA24DBE125E4ACE82A765C584 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				141EC5F6B7178885A4D15E1139A7B186 /* Info.plist */,
+				711CB8DCD614E04A4C6FA9CCA597F3FD /* SwiftVideoBackground.modulemap */,
+				E806887B6EF4F61894E7E6091907E526 /* SwiftVideoBackground.xcconfig */,
+				4415847A21C8AA74A9CCCEEC7C8E5626 /* SwiftVideoBackground-dummy.m */,
+				0AB2DF5724749A2B7A1D419558EAB8C2 /* SwiftVideoBackground-prefix.pch */,
+				C093931DB0A15DBD7715AC1AE4669FBC /* SwiftVideoBackground-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftVideoBackground";
+			sourceTree = "<group>";
+		};
+		D13F4DD2F7FC2E386E7E907156E620D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D37125E761A22E2220B59A6E4009F95D /* Images.xcassets */,
+				3BF225DBFC49F58BCEEDE9C68A8353F7 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DBD84F2B0B080DB197AD92B1DB171793 /* WARDoorView */ = {
+			isa = PBXGroup;
+			children = (
+				EACF4D6D462EDBB275D55A1C4BC10A40 /* WARDoorView.swift */,
+				33F16C2AA85D4686A253DB29CFF471DA /* WARDoorView.xib */,
+				72E44C83AC467EB65913E06CCE69973C /* Resources */,
+				5BFA1EFED7062661D054FA16863BB5BF /* Support Files */,
+			);
+			name = WARDoorView;
+			path = WARDoorView;
+			sourceTree = "<group>";
+		};
+		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
+				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
+				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63E24E4EFE1836A7726044CA28687464 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D437DC234E4339D93F9504F98CD82EDF /* Pods-Happy Birthday Adelyn!-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B58EEA34F4F3B507F00F68683C2EA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7664CDF4379809C66B4B85E54A46E180 /* WARDoorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A22BF7524004C9EDF9B65E9B46036D36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				331CD9E1999CA8F4F6153A54694A74F5 /* Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9F9247A5FB47E01D74CEF137DB7C46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9D584B4001538EC68F97D02BA98CE0 /* Twinkle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3D79CC9AC455D825E0DD87E7E143B7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D640FCCC64F0C5EFE5658445C98CE6DE /* SAConfettiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD86A67FC01FC708B16C1B3D0538B24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6603AD80A04D46B4ED657F80BCA581 /* SwiftVideoBackground-umbrella.h in Headers */,
+				EDD3F4BC021DDA61E9D9DE2E0FA3BEE2 /* SwiftVideoBackground.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E57A4C06D1340F70D084D7F38E4CF82 /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFC74395D8C0ECE8D574CD0B8DAAEDE /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				9128E3A60CAD535979690A19927F595E /* Sources */,
+				77DC676F102A63350BAEE880BFE6367C /* Frameworks */,
+				6D15E95901A47A4F1018EA4086C3003E /* Resources */,
+				A22BF7524004C9EDF9B65E9B46036D36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 60EBC689E1D2BCF7BFE9F41D59E01811 /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		378A1AA3D0B177C239C1A906E94D9510 /* SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A203D4DE09D9BA2A388540658F179D71 /* Build configuration list for PBXNativeTarget "SAConfettiView" */;
+			buildPhases = (
+				847D9FB5207BDAADB5BF5877CCD8342D /* Sources */,
+				A68518DC350B94D2EA069F23615D0518 /* Frameworks */,
+				240B33F8B3D5E97038DE70B7DD27021C /* Resources */,
+				B3D79CC9AC455D825E0DD87E7E143B7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC92AB936A0A6264BBF59BA49B568189 /* PBXTargetDependency */,
+			);
+			name = SAConfettiView;
+			productName = SAConfettiView;
+			productReference = 5FD280F41301A7C543B7F822461DD6C0 /* SAConfettiView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		586BB65EB1686B909BE2ADDCEEEF44A3 /* SwiftVideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E2CCF1355FEF851A5ECDCF74F6932E /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */;
+			buildPhases = (
+				AD53AC8259F6CEE3C520A4966BFDB3F0 /* Sources */,
+				62881C1CE765E02DDEE9F36DD2344900 /* Frameworks */,
+				FDD86A67FC01FC708B16C1B3D0538B24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVideoBackground;
+			productName = SwiftVideoBackground;
+			productReference = BB13373E0751E846C2C390725C1E8350 /* SwiftVideoBackground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8FB41472F86AEF0C4A35A5D2DFBEB370 /* SAConfettiView-SAConfettiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB56954D6B54BD354D8FE42AB1E9F6DC /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */;
+			buildPhases = (
+				1641A49D909695098E78E2AEBC85BD01 /* Sources */,
+				7AF37C432303328DECB1880E5AE3B6FB /* Frameworks */,
+				4BC6A754D46A7FF23BE158B414F94221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SAConfettiView-SAConfettiView";
+			productName = "SAConfettiView-SAConfettiView";
+			productReference = 3522005458F7C1900B22B7DB9FD45141 /* SAConfettiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A81C544E2CA543B15B89C0657A47424A /* WARDoorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE70081CC497523F53B150A7EE8D213 /* Build configuration list for PBXNativeTarget "WARDoorView" */;
+			buildPhases = (
+				8C97D2FD1ABD513129BFDF099291B28B /* Sources */,
+				7FF456C3266945C1B0C6279B99DB0DC6 /* Frameworks */,
+				907A3EA7B543937140AD30DF760D7736 /* Resources */,
+				66B58EEA34F4F3B507F00F68683C2EA0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WARDoorView;
+			productName = WARDoorView;
+			productReference = B62F374D8B518D1EA046A86CAA88B6EF /* WARDoorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAA5F3B3FAD1E5C0B4016949EAD7A426 /* Twinkle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA839AC59F39E8A1C2F5F2D3C302EBA /* Build configuration list for PBXNativeTarget "Twinkle" */;
+			buildPhases = (
+				71F1A552032D827B6F4D417E2CF43C57 /* Sources */,
+				A1AFB6DC250AB5F60146D6DDFFEE136E /* Frameworks */,
+				F8F221BE10ADB2D6EA6C5A9764714331 /* Resources */,
+				AB9F9247A5FB47E01D74CEF137DB7C46 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twinkle;
+			productName = Twinkle;
+			productReference = 88085A885560F4FC66A4AC46F1562641 /* Twinkle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB8870CC4C552064A64FA47C37806CC0 /* Pods-Happy Birthday Adelyn! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B2C266D49F2D48E8BE7722AE792701 /* Build configuration list for PBXNativeTarget "Pods-Happy Birthday Adelyn!" */;
+			buildPhases = (
+				C60A8F79BC79D512C894EFAFEED1A706 /* Sources */,
+				5AE1AAFD055043F630C563D8DE63A5C2 /* Frameworks */,
+				63E24E4EFE1836A7726044CA28687464 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4433F0E7B77DED6C94F6AF2B6DB71585 /* PBXTargetDependency */,
+				5D6D2A7FF293DE64214532AD88225CDD /* PBXTargetDependency */,
+				3384A739629F073B9AE17F67DA2EB911 /* PBXTargetDependency */,
+				1AA2DA29BC5477E6828C818752E5006D /* PBXTargetDependency */,
+				15305DD6589569440B6072F92CE4E67E /* PBXTargetDependency */,
+			);
+			name = "Pods-Happy Birthday Adelyn!";
+			productName = "Pods-Happy Birthday Adelyn!";
+			productReference = 2BDEB006E5E78080E008426DDAA2E4F4 /* Pods_Happy_Birthday_Adelyn_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2277BD700D3BD8FA3709568D9DEEC03E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8870CC4C552064A64FA47C37806CC0 /* Pods-Happy Birthday Adelyn! */,
+				378A1AA3D0B177C239C1A906E94D9510 /* SAConfettiView */,
+				8FB41472F86AEF0C4A35A5D2DFBEB370 /* SAConfettiView-SAConfettiView */,
+				1E57A4C06D1340F70D084D7F38E4CF82 /* Spring */,
+				586BB65EB1686B909BE2ADDCEEEF44A3 /* SwiftVideoBackground */,
+				AAA5F3B3FAD1E5C0B4016949EAD7A426 /* Twinkle */,
+				A81C544E2CA543B15B89C0657A47424A /* WARDoorView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		240B33F8B3D5E97038DE70B7DD27021C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D98E5ADD425C4D2F59B3903B77DCB /* SAConfettiView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BC6A754D46A7FF23BE158B414F94221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690D32B837DA13C989F8BD25C284AC8B /* confetti.png in Resources */,
+				2549530C6C36A991968C9F164F25B4E5 /* diamond.png in Resources */,
+				AAE8B8E396038632CCFDD73543F20F1A /* star.png in Resources */,
+				3F69687490DC97AFDC54798C9634F2A6 /* triangle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D15E95901A47A4F1018EA4086C3003E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F939ECB6CEAB8BF134B86BA80020252 /* Images.xcassets in Resources */,
+				60809DE84C29AD3F71DDAF7D94092256 /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907A3EA7B543937140AD30DF760D7736 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F181C7BF6260F897A70ADF5B249D01B /* leftDoor.png in Resources */,
+				5279FBBC63C6604626691F95A82FA8E6 /* rightDoor.png in Resources */,
+				A71E0AA8AEE7A47E1F430D937E02DB96 /* room.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F221BE10ADB2D6EA6C5A9764714331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CD1DAE9FD41C51DEBACF6855A4180ED /* TwinkleImage.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1641A49D909695098E78E2AEBC85BD01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F1A552032D827B6F4D417E2CF43C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B58C1F488C57B560044B2D44FBA7214 /* Twinkle-dummy.m in Sources */,
+				E7F47406F58D70CEE3D2B41E75AA2BDC /* Twinkle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847D9FB5207BDAADB5BF5877CCD8342D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCBCA48CAD66FEDF435516CD7346EB0 /* SAConfettiView-dummy.m in Sources */,
+				78257DA2D306DA3500B28D1D33D43003 /* SAConfettiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C97D2FD1ABD513129BFDF099291B28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2099EA72261EE6F599275FE334C75927 /* WARDoorView-dummy.m in Sources */,
+				92B05C1A420B4FF81F75820A4626C7BD /* WARDoorView.swift in Sources */,
+				76676D3CE2036C9B2E92A748688186AB /* WARDoorView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128E3A60CAD535979690A19927F595E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2675D256F52E515771DFED54F3A7E0 /* AsyncButton.swift in Sources */,
+				498FE3979867C60669CE6CAA803DF8CA /* AsyncImageView.swift in Sources */,
+				C92FDAEFE6AD38AC5E7F9E9E550203B9 /* AutoTextView.swift in Sources */,
+				BF299FCEF62C7B235DE54126031A476D /* BlurView.swift in Sources */,
+				E8E1CD13C352F4CEDCE193CBF8E9AFFB /* DesignableButton.swift in Sources */,
+				FDAA1FED1BCBCD288B50D5056F0148F9 /* DesignableImageView.swift in Sources */,
+				E02DB06E6907C55D6886F5003A44DD72 /* DesignableLabel.swift in Sources */,
+				D4AB5CB02D13669E57370BB8479BBF64 /* DesignableTabBarController.swift in Sources */,
+				94355CFB4A8B90F60A294A48FA0809D1 /* DesignableTextField.swift in Sources */,
+				E3010E5F5712D08DB5950E870AC0C42F /* DesignableTextView.swift in Sources */,
+				6D23A33DBEA3192EE4F9B9C6757E50F1 /* DesignableView.swift in Sources */,
+				D1442018B973046C4592CD405B10042C /* ImageLoader.swift in Sources */,
+				0D83A97F4DEE8001E70DD598018891F8 /* KeyboardLayoutConstraint.swift in Sources */,
+				0AA495A8A4AAC67BED3EA8A57D3DA4AC /* LoadingView.swift in Sources */,
+				7974AE91F5CE124001ACE0C9473F864C /* Misc.swift in Sources */,
+				14C2BA04BB2F25ABEDEB912C2CA45DDC /* SoundPlayer.swift in Sources */,
+				C641595E31738D9C31D955BA700610F4 /* Spring-dummy.m in Sources */,
+				5BE2044E831768086D447A7DECF9EE91 /* Spring.swift in Sources */,
+				75F09B75593BCBDBD4A5A8C783CE56B0 /* SpringAnimation.swift in Sources */,
+				CD8880BAA7A9E0AAB86202CA0C107AC1 /* SpringButton.swift in Sources */,
+				9B132243D27363FB01F0E453DCB86D5E /* SpringImageView.swift in Sources */,
+				8B9960478F74A7A598101B3F2CE55696 /* SpringLabel.swift in Sources */,
+				1EE5E84D60D66C035A141B5BE83DEDAD /* SpringTextField.swift in Sources */,
+				CC562D5757044B7737916A307115C9E0 /* SpringTextView.swift in Sources */,
+				F877DFD98112EC47E3853E4CD16E68DE /* SpringView.swift in Sources */,
+				B6C92DDF762CD3FBB434A4E3EAC8CFC6 /* TransitionManager.swift in Sources */,
+				364E91243EA048ABAB07F8EEF7545777 /* TransitionZoom.swift in Sources */,
+				291E5023BC48D7B7B8566A22D56F8558 /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD53AC8259F6CEE3C520A4966BFDB3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E55F8601F8AB7EBF1CC514A5A8A571 /* BackgroundVideo.swift in Sources */,
+				8B17EB65F77CE0E632DCCD39CD44CBBE /* SwiftVideoBackground-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60A8F79BC79D512C894EFAFEED1A706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6685BDDB1D551925D42824BAC4CBF2F5 /* Pods-Happy Birthday Adelyn!-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15305DD6589569440B6072F92CE4E67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WARDoorView;
+			target = A81C544E2CA543B15B89C0657A47424A /* WARDoorView */;
+			targetProxy = 9E4230BE17F348549A8BEED7A05E1301 /* PBXContainerItemProxy */;
+		};
+		1AA2DA29BC5477E6828C818752E5006D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Twinkle;
+			target = AAA5F3B3FAD1E5C0B4016949EAD7A426 /* Twinkle */;
+			targetProxy = 7ED0E851C8075D699ABCD188C8C54DF7 /* PBXContainerItemProxy */;
+		};
+		3384A739629F073B9AE17F67DA2EB911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoBackground;
+			target = 586BB65EB1686B909BE2ADDCEEEF44A3 /* SwiftVideoBackground */;
+			targetProxy = F16390FAC420BE0C363495832B87285A /* PBXContainerItemProxy */;
+		};
+		4433F0E7B77DED6C94F6AF2B6DB71585 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAConfettiView;
+			target = 378A1AA3D0B177C239C1A906E94D9510 /* SAConfettiView */;
+			targetProxy = 383FDF226A6F03DC8074D33E6B4B197D /* PBXContainerItemProxy */;
+		};
+		5D6D2A7FF293DE64214532AD88225CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Spring;
+			target = 1E57A4C06D1340F70D084D7F38E4CF82 /* Spring */;
+			targetProxy = 5492799F3876EC43CB70972EABCB7F66 /* PBXContainerItemProxy */;
+		};
+		AC92AB936A0A6264BBF59BA49B568189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SAConfettiView-SAConfettiView";
+			target = 8FB41472F86AEF0C4A35A5D2DFBEB370 /* SAConfettiView-SAConfettiView */;
+			targetProxy = 099412D850B47E737BF29DF48FE4492D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38C215E7AD5297CD2B312236F97266DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141CEDA8EA4DB229A603B8FF53137EBB /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3F09C2B753368CA3B8F85C0FBC10B2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E806887B6EF4F61894E7E6091907E526 /* SwiftVideoBackground.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B185D4ADD832E3D896170748ADB86F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0AB7007A1B8A08DBA043A63F30B239 /* Pods-Happy Birthday Adelyn!.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Happy Birthday Adelyn!/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Happy Birthday Adelyn!/Pods-Happy Birthday Adelyn!.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Happy_Birthday_Adelyn_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BA7CE62A4B0DAD3AFF0E010C0CA1B18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DA76B07ADABA3E69FE1D9897EB3238 /* Pods-Happy Birthday Adelyn!.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Happy Birthday Adelyn!/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Happy Birthday Adelyn!/Pods-Happy Birthday Adelyn!.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Happy_Birthday_Adelyn_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F18A5198CE1874D5E9BCFE46B056F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F26D34351C5913C7EC44F6E5ECE5DB6 /* Spring.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93AEF586C24AA860945EA3CD4AA9632E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F26D34351C5913C7EC44F6E5ECE5DB6 /* Spring.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Spring/Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Spring/Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2C650E83E2003D01C5FD6762C75980A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141CEDA8EA4DB229A603B8FF53137EBB /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SAConfettiView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/ResourceBundle-SAConfettiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BE79EA3F5DEA19A8BA34F11A006106FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6498319D72FF0CD0419809334AEE6739 /* Twinkle.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Twinkle/Twinkle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Twinkle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Twinkle/Twinkle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Twinkle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C75CFB3A8B47F8886D45FEFD2DC60B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141CEDA8EA4DB229A603B8FF53137EBB /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8E9BBF7277A132FF38CD991CD589062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1739629C6F6241F91116B8023E91645 /* WARDoorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WARDoorView/WARDoorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WARDoorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WARDoorView/WARDoorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WARDoorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1A4D2AD5553003924479A11B185C538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1739629C6F6241F91116B8023E91645 /* WARDoorView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WARDoorView/WARDoorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WARDoorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WARDoorView/WARDoorView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WARDoorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3B2DBA4825B53294F9EB5298DD685F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6498319D72FF0CD0419809334AEE6739 /* Twinkle.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Twinkle/Twinkle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Twinkle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Twinkle/Twinkle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Twinkle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2AFE55273C6CDC4C1EED2B7AAA5CCD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E806887B6EF4F61894E7E6091907E526 /* SwiftVideoBackground.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5BBA2040EED32D583CADF532C7F27B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 141CEDA8EA4DB229A603B8FF53137EBB /* SAConfettiView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAConfettiView/SAConfettiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAConfettiView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAConfettiView/SAConfettiView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SAConfettiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA839AC59F39E8A1C2F5F2D3C302EBA /* Build configuration list for PBXNativeTarget "Twinkle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE79EA3F5DEA19A8BA34F11A006106FF /* Debug */,
+				E3B2DBA4825B53294F9EB5298DD685F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E2CCF1355FEF851A5ECDCF74F6932E /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AFE55273C6CDC4C1EED2B7AAA5CCD3 /* Debug */,
+				3F09C2B753368CA3B8F85C0FBC10B2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFC74395D8C0ECE8D574CD0B8DAAEDE /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F18A5198CE1874D5E9BCFE46B056F1E /* Debug */,
+				93AEF586C24AA860945EA3CD4AA9632E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE70081CC497523F53B150A7EE8D213 /* Build configuration list for PBXNativeTarget "WARDoorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E9BBF7277A132FF38CD991CD589062 /* Debug */,
+				E1A4D2AD5553003924479A11B185C538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A203D4DE09D9BA2A388540658F179D71 /* Build configuration list for PBXNativeTarget "SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C75CFB3A8B47F8886D45FEFD2DC60B23 /* Debug */,
+				F5BBA2040EED32D583CADF532C7F27B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB56954D6B54BD354D8FE42AB1E9F6DC /* Build configuration list for PBXNativeTarget "SAConfettiView-SAConfettiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C215E7AD5297CD2B312236F97266DA /* Debug */,
+				A2C650E83E2003D01C5FD6762C75980A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B2C266D49F2D48E8BE7722AE792701 /* Build configuration list for PBXNativeTarget "Pods-Happy Birthday Adelyn!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B185D4ADD832E3D896170748ADB86F3 /* Debug */,
+				4BA7CE62A4B0DAD3AFF0E010C0CA1B18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
